@@ -45,7 +45,7 @@ app.use(require('./routers/singup.js').routes())
  app.use(require('./routers/post.js').routes())
  app.use(require('./routers/signout.js').routes())
 
-// 监听在3000端口111
+// 监听在3000端口再次测试
 app.listen(6000)
 
 console.log(`listening on port ${config.port}`)
